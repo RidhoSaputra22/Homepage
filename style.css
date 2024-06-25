@@ -1,0 +1,95 @@
+#overflowTest{
+    padding: 15px;
+    width: 100%;
+    height: 90vh;
+    overflow: scroll;
+    
+}
+.ham-icon{
+    height: 35px;
+    padding-top: 1px;
+    display: none;
+    
+    
+}
+
+
+.appear{
+    display: block!important;
+}
+
+.disappear{
+    display: none;
+}
+.profile{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    
+   
+    
+}
+
+.profile div:nth-child(4){
+    flex-grow: 1;
+}
+header{
+    display: flex;
+    
+
+    
+}
+
+
+.all-content{
+    height: 100%;
+    
+
+}
+
+.button-icon{
+    opacity: 0;
+    position: fixed;
+}
+
+
+.img-content{
+  max-width: 350px;
+  
+}
+
+.img-content:hover{
+    background-color: black;
+}
+
+
+.Photo-profile{
+    max-width: 200px;
+    border-radius: 100%;
+    margin :auto
+    
+    
+}
+
+
+
+@media screen and (max-width: 618px) {
+    .profile{
+     width: 100%;
+     display: none;
+     
+     
+}
+
+.ham-icon{
+    display: block;
+    
+}
+    
+
+}
+
+/* .project-content{
+    height: 100%;
+} */
